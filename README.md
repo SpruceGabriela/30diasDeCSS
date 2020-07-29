@@ -12,7 +12,12 @@ Gostou da ideia?
 [Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar
 
 * [Dia 01 - Ícone de mídia social em camadas](#day01)
+* [Dia 02 - Loading animado](#day02)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
 ![Redes sociais em camadas](./dia_1/social-media-sheets.gif)
+
+##  Desafio dia 02 - Loading animado <a name="day02"></a>
+
+![Redes sociais em camadas](./dia_2/spinner.gif)
