@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.marquee {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.marquee__container {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    background: #1d4266;
+}
+
+.marquee__container:nth-child(1) {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    background: url('./img/raposinha.jpg');
+    background-size: cover;
+}
+
+.marquee__container:nth-child(1) h2 {
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke: 2px;
+    -webkit-text-fill-color: transparent;
+    left: 100%;
+}
+
+.marquee__text {
+    white-space: nowrap;
+    position: absolute;
+    font-size: 12em;
+    line-height: 100vh;
+    color: #ffffff;
+    animation: marquee 70s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
