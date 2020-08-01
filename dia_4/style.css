@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(39, 39, 39);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrapper {
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+/*  BLUE BUTTON */
+
+.animated-button-blue {
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    height: 60px;
+    width: 220px;
+    color: rgb(131, 236, 255);
+    background-color: transparent;
+    outline: none;
+    border: 1px solid transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.animated-button-blue::before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 3px solid transparent;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.animated-button-blue::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 3px solid transparent;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.animated-button-blue:hover::before {
+    height: 60px;
+    width: 220px;
+    border: 3px solid rgb(131, 236, 255);
+    border-right: none;
+    border-bottom: none;
+    transition: height 0.5s linear, width 0.5s linear 0.5s;
+}
+
+.animated-button-blue:hover::after {
+    height: 60px;
+    width: 200px;
+    border: 3px solid rgb(131, 236, 255);
+    border-left: none;
+    border-top: none;
+    transition: height 0.5s linear, width 0.5s linear 0.5s;
+}
+
+/* PINK BUTTON */
+
+.animated-button-pink {
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: 2px solid;
+    color: rgb(236, 187, 195);
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.animated-button-pink::before, .animated-button-pink::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 14px;
+    background-color: rgb(39, 39, 39);
+    transform: skewX(50deg);
+    transition: .4s linear;
+}
+
+.animated-button-pink::before {
+    top: -2px;
+    left: 10%;
+}
+
+.animated-button-pink::after {
+    bottom: -2px;
+    right: 10%;
+}
+
+.animated-button-pink:hover::after {
+    right: 80%;
+}
+
+.animated-button-pink:hover::before {
+    left: 80%;
+}
