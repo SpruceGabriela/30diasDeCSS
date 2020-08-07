@@ -15,6 +15,7 @@ Gostou da ideia?
 * [Dia 02 - Loading animado](#day02)
 * [Dia 03 - Efeito banner com mudança de cor do texto](#day03)
 * [Dia 04 - Botão com borda animada](#day04)
+* [Dia 05 - Botão com efeito pulse](#day05)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
@@ -30,4 +31,9 @@ Gostou da ideia?
 
 ##  Desafio dia 04 - Botão com borda animada <a name="day04"></a>
 
-![Efeito banner com mudança de cor do texto](./dia_4/button-hover.gif)
+![Efeito borda animada](./dia_4/button-hover.gif)
+
+##  Desafio dia 05 - Botão com efeito pulse <a name="day05"></a>
+
+![Efeito pulse](./dia_5/pulse-button.gif)
+
