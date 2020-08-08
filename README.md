@@ -16,6 +16,7 @@ Gostou da ideia?
 * [Dia 03 - Efeito banner com mudança de cor do texto](#day03)
 * [Dia 04 - Botão com borda animada](#day04)
 * [Dia 05 - Botão com efeito pulse](#day05)
+* [Dia 06 - Texto com efeito líquido](#day06)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
@@ -36,4 +37,8 @@ Gostou da ideia?
 ##  Desafio dia 05 - Botão com efeito pulse <a name="day05"></a>
 
 ![Efeito pulse](./dia_5/pulse-button.gif)
+
+##  Desafio dia 06 - Texto com efeito líquido <a name="day06"></a>
+
+![Efeito pulse](./dia_6/water.gif)
 
