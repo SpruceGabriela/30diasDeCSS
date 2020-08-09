@@ -43,6 +43,6 @@ Gostou da ideia?
 
 ![Efeito texto líquido](./dia_6/water.gif)
 
-##  Desafio dia 07 - Texto com efeito líquido <a name="day07"></a>
+##  Desafio dia 07 - Ícone para menu hamburguer <a name="day07"></a>
 
 ![Ícone para menu hamburguer](./dia_7/burger.gif)
