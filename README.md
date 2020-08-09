@@ -17,6 +17,7 @@ Gostou da ideia?
 * [Dia 04 - Botão com borda animada](#day04)
 * [Dia 05 - Botão com efeito pulse](#day05)
 * [Dia 06 - Texto com efeito líquido](#day06)
+* [Dia 07 - Ícone para menu hamburguer](#day07)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
@@ -40,5 +41,8 @@ Gostou da ideia?
 
 ##  Desafio dia 06 - Texto com efeito líquido <a name="day06"></a>
 
-![Efeito pulse](./dia_6/water.gif)
+![Efeito texto líquido](./dia_6/water.gif)
 
+##  Desafio dia 07 - Texto com efeito líquido <a name="day07"></a>
+
+![Ícone para menu hamburguer](./dia_7/burger.gif)
