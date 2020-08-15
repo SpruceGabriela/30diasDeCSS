@@ -4,7 +4,7 @@
 
 # Regras gerais
 
-* Realizar um projeto por dia
+* Realizar um projeto por dia (no meu caso, realizar 30 desafios, não necessariamente em dias seguidos)
 * Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
 * O projeto deve ser concluído até 23:59
 
