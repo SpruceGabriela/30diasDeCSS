@@ -18,6 +18,7 @@ Gostou da ideia?
 * [Dia 05 - Botão com efeito pulse](#day05)
 * [Dia 06 - Texto com efeito líquido](#day06)
 * [Dia 07 - Ícone para menu hamburguer](#day07)
+* [Dia 08 - Relógio utilizando neomorfismo](#day08)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
@@ -46,3 +47,7 @@ Gostou da ideia?
 ##  Desafio dia 07 - Texto com efeito líquido <a name="day07"></a>
 
 ![Ícone para menu hamburguer](./dia_7/burger.gif)
+
+##  Desafio dia 08 - Relógio utilizando neomorfismo <a name="day08"></a>
+
+![Relógio utilizando neomorfismo](./dia_8/clock.gif)
