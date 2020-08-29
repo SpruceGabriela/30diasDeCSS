@@ -7,11 +7,58 @@ body {
 .wrapper {
     height: 100vh;
     width: 100vw;
-    background-color: #e2e2e2;
+    background-color: #152132;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 5rem;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     position: relative;
+}
+
+.square-loading {
+    height: 100px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.square-row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.square {
+    height: 25px;
+    width: 25px;
+    border: 5px solid #a0a0a0;
+    border-radius: 4px;
+    animation-timing-function: step-end; 
+    animation: 0.6s lightSquare linear infinite;
+}
+
+.square1 {
+    animation-delay: 0s;
+}
+
+.square2 {
+    animation-delay: 0.1s;
+}
+
+.square4 {
+    animation-delay: 0.2s;
+}
+
+.square3 {
+    animation-delay: 0.3s;
+}
+
+@keyframes lightSquare {
+    0% {
+        border: 5px solid #f81b63;
+    }
 }

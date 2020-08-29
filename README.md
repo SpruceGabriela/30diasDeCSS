@@ -20,6 +20,7 @@ Gostou da ideia?
 * [Dia 07 - Ícone para menu hamburguer](#day07)
 * [Dia 08 - Relógio utilizando neomorfismo](#day08)
 * [Dia 09 - Menu bubble](#day09)
+* [Dia 10 - Loading animado](#day10)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
@@ -56,3 +57,7 @@ Gostou da ideia?
 ##  Desafio dia 09 - Menu bubble <a name="day09"></a>
 
 ![Menu bubble](./projects/dia_9/bubble-menu.gif)
+
+##  Desafio dia 09 - Loading animado <a name="day10"></a>
+
+![Menu bubble](./projects/dia_10/loading.gif)
