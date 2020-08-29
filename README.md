@@ -23,36 +23,36 @@ Gostou da ideia?
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
-![Redes sociais em camadas](./dia_1/social-media-sheets.gif)
+![Redes sociais em camadas](./projects/dia_1/social-media-sheets.gif)
 
 ##  Desafio dia 02 - Loading animado <a name="day02"></a>
 
-![Loading animado](./dia_2/spinner.gif)
+![Loading animado](./projects/dia_2/spinner.gif)
 
 ##  Desafio dia 03 - Efeito banner com mudança de cor do texto <a name="day03"></a>
 
-![Efeito banner com mudança de cor do texto](./dia_3/marquee.gif)
+![Efeito banner com mudança de cor do texto](./projects/dia_3/marquee.gif)
 
 ##  Desafio dia 04 - Botão com borda animada <a name="day04"></a>
 
-![Efeito borda animada](./dia_4/button-hover.gif)
+![Efeito borda animada](./projects/dia_4/button-hover.gif)
 
 ##  Desafio dia 05 - Botão com efeito pulse <a name="day05"></a>
 
-![Efeito pulse](./dia_5/pulse-button.gif)
+![Efeito pulse](./projects/dia_5/pulse-button.gif)
 
 ##  Desafio dia 06 - Texto com efeito líquido <a name="day06"></a>
 
-![Efeito texto líquido](./dia_6/water.gif)
+![Efeito texto líquido](./projects/dia_6/water.gif)
 
 ##  Desafio dia 07 - Ícone para menu hamburguer <a name="day07"></a>
 
-![Ícone para menu hamburguer](./dia_7/burger.gif)
+![Ícone para menu hamburguer](./projects/dia_7/burger.gif)
 
 ##  Desafio dia 08 - Relógio utilizando neomorfismo <a name="day08"></a>
 
-![Relógio utilizando neomorfismo](./dia_8/clock.gif)
+![Relógio utilizando neomorfismo](./projects/dia_8/clock.gif)
 
 ##  Desafio dia 09 - Menu bubble <a name="day09"></a>
 
-![Menu bubble](./dia_9/bubble-menu.gif)
+![Menu bubble](./projects/dia_9/bubble-menu.gif)
