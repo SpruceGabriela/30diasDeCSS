@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: #69472f85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.power-button {
+    width: 6.8rem;
+    height: 3rem;
+    background: #DEDEDE;
+    border-radius: 32px;
+}
+
+#powerbutton {
+    display: none;
+}
+
+.toggle {
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #fcfff4;
+    border: 1px solid #DEDEDE;
+    border-radius: 32px;
+    transition: .4s cubic-bezier(0.895, 0.07, 0.685, 0.68);
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.toggle::after {
+    content: 'Off';
+    color: rgb(153, 153, 153);
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 14px;
+    top: 14px;
+    left: 10px;
+}
+
+.toggle::before {
+    content: 'On';
+    color: #ffffff;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 0;
+    top: 14px;
+    left: 12px;
+}
+
+#powerbutton:checked + .toggle {
+    left: 3.7rem;
+    background-color: #8ac02d;
+}
+
+#powerbutton:checked + .toggle::after {
+    font-size: 0;
+}
+
+#powerbutton:checked + .toggle::before {
+    font-size: 14px;
+}
