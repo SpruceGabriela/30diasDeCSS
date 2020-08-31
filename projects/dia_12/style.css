@@ -1,0 +1,192 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.polaroid-wrapper {
+    z-index: 23;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.polaroid {
+    background-color: #f5f5f5;
+    width: 30rem;
+    height: 18rem;
+    border-radius: 32px;
+    box-shadow: 3px 3px 9px #bda5a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.photo-indicator {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #3a3a3a;
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+
+.polaroid-lens {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    background: linear-gradient(140deg, #7d7d7d 50%,#696868 50%);
+    border: 5px solid #9e9e9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 6px #696868;
+    z-index: 1;
+}
+
+.polaroid-lens__first {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #2c3e4f85;
+    border: 5px solid #34495d59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.polaroid-lens__second {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: linear-gradient(140deg, #2b3a48b3 50%,#21303db3 50%);
+    position: relative;
+}
+
+.shine {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #b5b5b5;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rainbow {
+    position: absolute;
+    width: 11rem;
+    right: 0;
+}
+
+.rainbow .color {
+    height: 0.5rem;
+    width: 100%;
+}
+
+.rainbow .color:nth-child(1) {
+    background-color: #129edf;   
+}
+
+.rainbow .color:nth-child(2) {
+    background-color: #0aae4f;   
+}
+
+.rainbow .color:nth-child(3) {
+    background-color: #ffb403;   
+}
+
+.rainbow .color:nth-child(4) {
+    background-color: #fe8303;   
+}
+
+.rainbow .color:nth-child(5) {
+    background-color: #e02d28;   
+}
+
+.take-photo {
+    height: 1.3rem;
+    width: 5rem;
+    border-radius: 16px 16px 0 0;
+    background-color: #8b0000bf;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: -1.3rem;
+    left: 2rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.flash {
+    height: 3rem;
+    width: 7rem;
+    border-radius: 12px 12px 0 0;
+    background-color: #506679;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: -3rem;
+    left: 11.5rem;
+    cursor: pointer;
+    box-shadow: 3px -1px 3px -2px #506679;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flash-light {
+    height: 1.4rem;
+    width: 4rem;
+    border-radius: 5px;
+    background-color: #6d89a2;
+}
+
+.photo {
+    width: 11rem;
+    height: 10rem;
+    position: absolute;
+    background: linear-gradient(140deg, #fff, #f3f3f3, #d4d4d4);
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.picture {
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    background: linear-gradient(140deg, #a77361, #825849 50%, #714c3f 50%, #50382f);
+}
+
+.take-photo-button:checked + .photo {
+    bottom: -10rem;
+}
+
+@media (max-width: 600px) {
+    .polaroid {
+        width: 20rem;
+    }
+}

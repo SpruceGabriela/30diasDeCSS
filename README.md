@@ -22,6 +22,7 @@ Gostou da ideia?
 * [Dia 09 - Menu bubble](#day09)
 * [Dia 10 - Loading animado](#day10)
 * [Dia 11 - Botão On/Off](#day11)
+* [Dia 12 - Polaroid](#day12)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
@@ -66,3 +67,7 @@ Gostou da ideia?
 ##  Desafio dia 11 - Botão On/Off <a name="day11"></a>
 
 ![Menu bubble](./projects/dia_11/on-off.gif)
+
+##  Desafio dia 12 - Polaroid <a name="day12"></a>
+
+![Menu bubble](./projects/dia_12/polaroid.gif)
