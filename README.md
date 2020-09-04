@@ -23,6 +23,7 @@ Gostou da ideia?
 * [Dia 10 - Loading animado](#day10)
 * [Dia 11 - Botão On/Off](#day11)
 * [Dia 12 - Polaroid](#day12)
+* [Dia 13 - Linear-gradient animado](#day13)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
@@ -70,4 +71,8 @@ Gostou da ideia?
 
 ##  Desafio dia 12 - Polaroid <a name="day12"></a>
 
-![Menu bubble](./projects/dia_12/polaroid.gif)
+![Polaroid](./projects/dia_12/polaroid.gif)
+
+##  Desafio dia 13 - Linear-gradient animado <a name="day13"></a>
+
+![MGradient](./projects/dia_13/gradient.gif)
