@@ -25,6 +25,7 @@ Gostou da ideia?
 * [Dia 12 - Polaroid](#day12)
 * [Dia 13 - Linear-gradient animado](#day13)
 * [Dia 14 - Indicador de chat](#day14)
+* [Dia 14 - Dia ensolarado](#day15)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
@@ -81,3 +82,7 @@ Gostou da ideia?
 ##  Desafio dia 14 - Indicador de chat (digitando...) <a name="day14"></a>
 
 ![Chatbot](./projects/dia_14/chatbot.gif)
+
+##  Desafio dia 15 - Dia Ensolarado <a name="day15"></a>
+
+![Sunnyday](./projects/dia_15/sunny-day.gif)

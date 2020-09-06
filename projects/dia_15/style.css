@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(116, 216, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sunny-container {
+    position: relative;
+}
+
+.sun {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    background-color: rgb(255, 243, 78);
+    position: relative;
+}
+
+.cloud {
+    height: 5rem;
+    width: 15rem;
+    border-radius: 40px;
+    background-color: #ffffff;
+    position: relative;
+    transform: translateX(0);
+    transition: transform 2s ease-in-out;
+    animation-delay: 0.5s;
+    animation: bigCloud 6s ease-in-out infinite;
+}
+
+.cloud-small {
+    z-index: 5;
+    top: 3rem;
+    left: -9rem;
+    transform: translateX(0) scale(.5);
+    animation: smallCloud 6s ease-in-out infinite;
+}
+
+.cloud::after {
+    content: '';
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: -4rem;
+    right: 1.5rem;
+}
+
+.cloud::before {
+    content: '';
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: -3rem;
+    left: 2rem;
+}
+
+@keyframes smallCloud {
+    0% {
+        transform: translateX(0) scale(.5);
+    }
+    50% {
+        transform: translateX(-50px) scale(.5);
+    }
+    100% {
+        transform: translateX(0) scale(.5);
+    }
+}
+
+@keyframes bigCloud {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
