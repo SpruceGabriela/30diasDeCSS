@@ -4,7 +4,7 @@
 
 # Regras gerais
 
-* Realizar 30 projetos, não necessariamente por 30 dias seguidos
+* Realizar 30 projetos, (para mim, não necessariamente por 30 dias seguidos)
 * Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
 * O projeto deve ser concluído até 23:59
 
@@ -24,6 +24,7 @@ Gostou da ideia?
 * [Dia 11 - Botão On/Off](#day11)
 * [Dia 12 - Polaroid](#day12)
 * [Dia 13 - Linear-gradient animado](#day13)
+* [Dia 14 - Indicador de chat](#day14)
 
 ##  Desafio dia 01 - Ícones de redes sociais em camadas <a name="day01"></a>
 
@@ -76,3 +77,7 @@ Gostou da ideia?
 ##  Desafio dia 13 - Linear-gradient animado <a name="day13"></a>
 
 ![MGradient](./projects/dia_13/gradient.gif)
+
+##  Desafio dia 14 - Indicador de chat (digitando...) <a name="day14"></a>
+
+![Chatbot](./projects/dia_14/chatbot.gif)
